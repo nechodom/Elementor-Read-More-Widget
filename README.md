@@ -28,7 +28,7 @@ Elementor Read More Plugin adds a "Read More" button with expandable content for
 
 ## Screenshots
 
-![screenshot1](https://i.imgur.com/muOBjLQ.png)
+![screenshot1](https://i.imgur.com/KXwXWdT.png)
 
 ### CSS TAB
 
