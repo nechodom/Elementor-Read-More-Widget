@@ -1,0 +1,26 @@
+/* style.css */
+.read-more-content {
+    display: none;
+}
+
+.read-more-button {
+    display: block;
+    margin-top: 10px;
+    background-color: #f39c12; /* Example background color */
+    color: #fff; /* Example text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Example border radius */
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.read-more-button:hover {
+    background-color: #e67e22; /* Example hover background color */
+}
+
+.read-more-ellipsis {
+    display: inline;
+}
