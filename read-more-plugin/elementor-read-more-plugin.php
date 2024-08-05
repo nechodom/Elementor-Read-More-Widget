@@ -17,6 +17,12 @@ function elementor_read_more_plugin_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'elementor_read_more_plugin_enqueue_styles' );
 
+// Enqueue the JS file
+function elementor_read_more_plugin_enqueue_scripts() {
+    wp_enqueue_script( 'elementor-read-more-plugin-script', plugins_url( '/js/elementor-read-more-plugin.js', __FILE__ ), array('jquery'), null, true );
+}
+add_action( 'wp_enqueue_scripts', 'elementor_read_more_plugin_enqueue_scripts' );
+
 // Include the widget file
 function register_elementor_read_more_widget( $widgets_manager ) {
     require_once( __DIR__ . '/widgets/read-more-widget.php' );
