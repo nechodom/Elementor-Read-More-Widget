@@ -2,7 +2,7 @@
 /*
 Plugin Name: Elementor Read More Plugin
 Description: A plugin to add a read more button with expandable content in Elementor.
-Version: 1.4
+Version: 1.4.1
 Author: Matěj Kevin Nechodom
 Author URI: https://www.nechodom.cz
 */
